@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/9948180189/New-CICD-Project'
+                git branch: 'main', url: 'https://github.com/9948180189/New-CICD-Project.git'
             }
         }
         stage("Sonarqube Analysis") {
